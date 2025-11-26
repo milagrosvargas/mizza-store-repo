@@ -1,0 +1,96 @@
+/* 🎀 Estilos generales */
+.swal-popup {
+    font-family: 'Poppins', sans-serif !important;
+    border-radius: 14px !important;
+    padding: 22px !important;
+    background: #fff8fa !important; /* fondo suave rosado */
+    color: #2d2d2d !important;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* ✨ Título y texto */
+.swal-title {
+    color: #e06388 !important;
+    font-weight: 600 !important;
+}
+
+.swal-text {
+    color: #333 !important;
+    font-size: 0.95rem !important;
+}
+
+/* 💚 Éxito */
+.swal-btn-exito {
+    background-color: #80c98f !important; /* verde pastel */
+    color: white !important;
+    font-weight: 600 !important;
+    border: none !important;
+    border-radius: 25px !important;
+    padding: 8px 24px !important;
+    transition: all 0.3s ease !important;
+}
+.swal-btn-exito:hover {
+    background-color: #5dbf75 !important;
+    transform: scale(1.05);
+}
+
+/* ❤️ Error */
+.swal-btn-error {
+    background-color: #e06388 !important; /* rosa fuerte */
+    color: white !important;
+    font-weight: 600 !important;
+    border: none !important;
+    border-radius: 25px !important;
+    padding: 8px 24px !important;
+    transition: all 0.3s ease !important;
+}
+.swal-btn-error:hover {
+    background-color: #c94d73 !important;
+    transform: scale(1.05);
+}
+
+/* 💛 Advertencia */
+.swal-btn-advertencia {
+    background-color: #f7c45c !important; /* durazno suave */
+    color: #2d2d2d !important;
+    font-weight: 600 !important;
+    border: none !important;
+    border-radius: 25px !important;
+    padding: 8px 24px !important;
+    transition: all 0.3s ease !important;
+}
+.swal-btn-advertencia:hover {
+    background-color: #f3b338 !important;
+    transform: scale(1.05);
+}
+
+/* 🩶 Cancelar */
+.swal-btn-cancelar {
+    background-color: #b6b6b6 !important; /* gris neutro elegante */
+    color: white !important;
+    font-weight: 600 !important;
+    border: none !important;
+    border-radius: 25px !important;
+    padding: 8px 24px !important;
+    transition: all 0.3s ease !important;
+}
+.swal-btn-cancelar:hover {
+    background-color: #999 !important;
+    transform: scale(1.05);
+}
+
+/* 💫 Animación de entrada */
+.swal2-popup {
+    animation: fadeInPop 0.4s ease !important;
+}
+
+@keyframes fadeInPop {
+    from {
+        opacity: 0;
+        transform: scale(0.85);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

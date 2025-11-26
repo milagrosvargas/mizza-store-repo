@@ -1,0 +1,95 @@
+/*
+GLOBAL.CSS — Estilos base del layout principal (main.php)
+REGLA DE ORO:
+Este archivo define estilos globales base del sitio.
+Ninguna vista individual debe redefinir directamente:
+- body, html
+- h1, h2, h3 globales
+- .container, .card, .btn-primary
+Las vistas deben usar wrappers propios (ej: .vista-cosmeticos)
+*/
+
+/* ===== ESTRUCTURA GLOBAL ===== */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #212529;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+/* ===== CONTENEDOR BASE ===== */
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+/* ===== TITULOS ===== */
+h1,
+h2 {
+    color: #77231F;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+/* ===== TARJETAS ===== */
+.card {
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+/* ===== BOTONES ===== */
+.btn-primary {
+    background-color: #77231F;
+    border-color: #77231F;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 0.5rem 1.25rem;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #5e1b19;
+    border-color: #5e1b19;
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+}
+
+/* ===== UTILIDADES ===== */
+.text-danger {
+    color: #dc3545 !important;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 576px) {
+    .container {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+}
