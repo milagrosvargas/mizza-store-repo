@@ -1,0 +1,9 @@
+{
+    "require": {
+        "phpmailer/phpmailer": "^7.0",
+        "phpoffice/phpspreadsheet": "^5.2",
+        "verot/class.upload.php": "^2.1",
+        "mercadopago/dx-php": "^3.7",
+        "dompdf/dompdf": "^3.1"
+    }
+}
